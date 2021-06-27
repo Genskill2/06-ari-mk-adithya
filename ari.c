@@ -26,47 +26,33 @@ string ari(string s){
     a = ceil(t_1 + t_2);
     switch (a){
     case 1:
-        printf("Kindergarten");
-        break;
+        return "Kindergarten";
     case 2:
-        printf("First/Second Grade");
-        break;
+        return "First/Second Grade";
     case 3:
-        printf("Third Grade");
-        break;
+        return "Third Grade";
     case 4:
-        printf("Fourth Grade");
-        break;
+        return "Fourth Grade";
     case 5:
-        printf("Fifth Grade");
-        break;
+        return "Fifth Grade";
     case 6:
-        printf("Sixth Grade");
-        break;
+        return "Sixth Grade";
     case 7:
-        printf("Seventh Grade");
-        break;
+        return "Seventh Grade";
     case 8:
-        printf("Eight Grade");
-        break;
+        return "Eight Grade";
     case 9:
-        printf("Ninth Grade");
-        break;
+        return "Ninth Grade";
     case 10:
-        printf("Tenth Grade");
-        break;
+        return "Tenth Grade";
     case 11:
-        printf("Eleventh Grade");
-        break;
+        return "Eleventh Grade";
     case 12:
-        printf("Twelfth Grade");
-        break;
+        return "Twelfth Grade";
     case 13:
-        printf("College student");
-        break;
+        return "College student";
     case 14:
-        printf("Professor");
-        break;
+        return "Professor";
     default:
         printf("Error");
     }
